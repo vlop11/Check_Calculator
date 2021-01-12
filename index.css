@@ -1,0 +1,22 @@
+.main-view {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: fit-content;
+}
+
+.input-field, #final-check {
+  font-size: 18pt;
+  margin: 25px;
+  text-align: center;
+}
+
+input[type=text], input[type=button] {
+  border-style: solid;
+  font-size: 18pt;
+}
+
+#final-check {
+  font-size: 18pt;
+}
